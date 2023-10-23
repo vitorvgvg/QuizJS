@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background: rgb(228, 228, 228);
+    
+}
+body h2{
+    color: rgba(2, 54, 94, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    font-weight: 100;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btnIniciar {
+    font-size:15px;
+    font-family: 'roboto', sans-serif;
+    width:190px;
+    height:100px;
+    padding: 15px;
+    border-width:10px;
+    color:#fff;
+    border-color:rgba(24, 171, 41, 0);
+    font-weight:bold;
+    text-decoration: none;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
+    text-shadow: 1px 1px 0px #2f6627;
+    background:rgba(2, 54, 94, 1);
+  }
+  
+.btnIniciar:hover {
+    background: rgba(102, 191, 25, 1)
+  }
+
+/* Pagina simulados */
+.header{
+  
+    display: flex;
+    margin: 0;
+
+}
+main.cards{
+    display: flex;
+    padding: 32px;
+}
+main.cards section.card:hover{
+    box-shadow: 2px 2px 2px 2px rgb(179, 179, 179);
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+} 
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    max-height: 256px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+main.cards section.card img{
+    width: 300px;
+}
+.btnVoltar{
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: center;
+    font-size:15px;
+    font-family: 'roboto', sans-serif;
+    width:120px;
+    height:60px;
+    padding:15px;
+    padding-left: 22px;
+    border-width:10px;
+    color:#fff;
+    border-color:rgba(24, 171, 41, 0);
+    font-weight:bold;
+    text-decoration: none;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
+    text-shadow: 1px 1px 0px #2f6627;
+    background:rgba(2, 54, 94, 1);   
+}
+.btnVoltar a{
+    display: inline;
+    vertical-align: middle;
+    align-items: center;
+    font-size:15px;
+    color:#fff;
+    text-decoration: none;
+
+}
+.btnVoltar:hover{
+    background: rgba(102, 191, 25, 1)   
+}
+
+.material-icons {
+    width: 25px;
+    overflow: hidden;
+    vertical-align: bottom; 
+}
+.material-icons.tiny { 
+    font-size: 1rem;
+    width: 1rem;
+    overflow: hidden;
+}
+.material-icons.small { 
+    font-size: 2rem; 
+    width: 2rem;
+    overflow: hidden;
+}
+.material-icons.medium { 
+    font-size: 4rem; 
+    width: 4rem;
+    overflow: hidden;
+}
+.material-icons.large { 
+    font-size: 6rem; 
+    width: 6rem;
+    overflow: hidden;
+}
+.material-icons.extra-large { 
+    font-size: 10rem; 
+    width: 10rem;
+    overflow: hidden;
+}

@@ -1,0 +1,121 @@
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #4ca1af;
+  background-image: linear-gradient(135deg, #4ca1af 0%, #c4e0e5 100%);
+  min-height: 100vh;
+}
+
+.app {
+  background: #fff;
+  width: 90%;
+  max-width: 900px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 50px;
+  margin-bottom: 100px;
+}
+.app h1 {
+  font-size: 25px;
+  color: #001e4d;
+  font-weight: bold;
+  border-bottom: 1px solid#3333;
+}
+.quiz {
+  padding: 20px 0;
+}
+
+.quiz h2 {
+  font-size: 18px;
+  color: #001e4d;
+  font-weight: 300;
+  text-align: justify;
+  margin-bottom: 25px;
+}
+.btn {
+  background: #fff !important;
+  color: #585858 !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  width: 100% !important;
+  border: 2px solid #cccccc !important;
+  padding: 20px !important;
+  margin: 10px 0 !important;
+  text-align: left !important;
+  border-radius: 10px !important;
+  cursor: pointer !important;
+}
+.btn:hover:not([disabled]) {
+  background: #fff !important;
+  color: #66bf19 !important;
+  border: 2px solid #66bf19 !important;
+  font-weight: bold !important;
+  padding: 25px !important;
+  transition-duration: 0.4s !important;
+}
+.btn:disabled{
+  cursor: no-drop;
+}
+#back-btn {
+  display: none ;
+  background: #ce5d00 !important;
+  color: #fff !important;
+  font-weight: 500px !important;
+  border: 0 !important;
+  width: 100% !important;
+  padding: 20px !important;
+  margin: 20px auto 0 !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+}
+#next-btn {
+  background: #001e4d !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  border: 2px solid #ffffff !important;
+  width: 100% !important;
+  padding: 20px !important;
+  margin: 20px auto 0 !important;
+  margin-left: 0px !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+}
+#next-btn:hover {
+  background: #66bf19 !important;
+  color: #fff !important;
+  border: 0 !important;
+  transition: 0.4s !important;
+  
+}
+.correct{
+  background: #fff !important;
+  color: #66bf19 !important;
+  border: 2px solid #66bf19 !important;
+  font-weight: bold !important;
+  padding: 25px !important;
+}
+.incorrect{
+  background: #fff !important;
+  color: #cf4201 !important;
+  border: 2px solid #cf4201 !important;
+  font-weight: bold !important;
+  padding: 25px !important;
+}
+
+
+@keyframes treme {
+  0% {margin-left: 0;}
+  25% {margin-left: 5px;}
+  50% {margin-left: 0;}
+  75% {margin-left: -5px;}
+  100% {margin-left: 0;}
+}
